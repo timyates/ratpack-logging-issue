@@ -48,3 +48,30 @@ If you change `build.gradle` (line 7) like so:
 Then the `ab` test passes as expected...
 
 Hope this makes sense!
+
+PS:  Versions of stuff:
+
+```bash
+$ uname -v
+Darwin Kernel Version 15.0.0: Sat Sep 19 15:53:46 PDT 2015; root:xnu-3247.10.11~1/RELEASE_X86_64
+
+$ java -version
+java version "1.8.0_65"
+Java(TM) SE Runtime Environment (build 1.8.0_65-b17)
+Java HotSpot(TM) 64-Bit Server VM (build 25.65-b01, mixed mode)
+
+$ ./gradlew -version
+
+------------------------------------------------------------
+Gradle 2.9
+------------------------------------------------------------
+
+Build time:   2015-11-17 07:02:17 UTC
+Build number: none
+Revision:     b463d7980c40d44c4657dc80025275b84a29e31f
+
+Groovy:       2.4.4
+Ant:          Apache Ant(TM) version 1.9.3 compiled on December 23 2013
+JVM:          1.8.0_65 (Oracle Corporation 25.65-b01)
+OS:           Mac OS X 10.11.1 x86_64
+```

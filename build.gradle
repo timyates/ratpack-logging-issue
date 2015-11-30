@@ -22,7 +22,6 @@ targetCompatibility = 1.8
 
 dependencies {
     compile ratpack.dependency("guice")
-    compile ratpack.dependency("rx")
 
     runtime "org.slf4j:jcl-over-slf4j:1.7.12"
     runtime "ch.qos.logback:logback-core:1.1.3"
